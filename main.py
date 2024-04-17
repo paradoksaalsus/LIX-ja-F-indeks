@@ -81,7 +81,7 @@ def getLIXIndex(text):
 # INT = hüüdsõnade sagedus      - I
 # PRON = asesõnade sagedus      - P
 def getFormalityIndex(dict):
-    N = dict['N']
+    N = dict['S']
     ADJ = dict['A'] + dict['C']
     ADP = dict['K']
     V = dict['V']
